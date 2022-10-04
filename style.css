@@ -10,10 +10,22 @@ html {
     font-family: "Montserrat", sans-serif;
 }
 
-h1 {
+h1, p {
     color: #426696;
     font-weight: 600;
     font-size: 3rem;
+    opacity: 0.8;
+}
+
+h2 {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #426696;
+    font-weight: 600;
     opacity: 0.8;
 }
 
@@ -98,4 +110,36 @@ main {
 
 .pro h2 {
     width: 40%;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* GAMES SECTION */
+
+.status {
+    margin-bottom: 3rem;
+}
+
+.status input {
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.games {
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    background: linear-gradient(to left top, rgba(255,255,255,0.2), rgba(255,255,255,0.9));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.2);
 }
